@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BreakOut</title>
+    <style>
+    	* { padding: 0; margin: 0; }
+        canvas { background: #eee; display: block; margin: 0 auto; }
+        body {
+        background: #202028;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 2em;
+        text-align: center;
+      }
+      canvas {
+        border: solid .2em #fff;
+        height: 90vh;
+      }
+      
+      .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 200px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  
+  
+  .button2 {
+    background-color: blueviolet; 
+    color: #202028; 
+    
+  }
+  
+  .button2:hover {
+    background-color: #202028;
+    color: blueviolet;
+  }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="GroßText">BreakOut</h1>
+    </div>    
+
+
+    <div>
+        <a href="index.html" style="margin: 30px;" class="button button2">Vissza a főoldalra</a>
+        
+    </div>
+    
+    <script src="BreakOut_Chapter_Changer.js"></script>
+
+    <div>
+    
+      <h1 class="GroßText">Első fejezet</h1>
+
+
+    <select class="button button2" style="margin: 20px;" name="PullDown" onchange="PageChanger(this.options[this.selectedIndex].value)">
+      
+      
+
+      <option value=" ">Válassz részt!
+      <option value="BreakOut_LVL_1.html">1
+
+      
+      </select>
+    </div>
+<link rel="stylesheet" href="index.css">
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+.GameName{
+    color: magenta;
+    font-size: 22px;
+    font-family: 'Lucida Sans';
+    margin: 30px 600px;
+}
+
+
+.GroßText{
+    color: blueviolet;
+    font-family: Consolas;
+    font-size: 24px;
+    margin: 50px 420px;
+}
+
+.description{
+    color: blueviolet;
+    font-family: Comic Sans MS;
+    font-size: 14px;
+    margin: 50px auto;
+}
+
+.ChsGame{
+    color: blueviolet;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 34px 504px;
+  }
+
+   .Homepage{
+       color: blueviolet;
+       font-size: xx-large;
+       font-family: Arial;
+       font-weight: 200;
+       margin: 104px 470px;
+   }
+       .button {
+         background-color: #4CAF50; /* Green */
+         border: none;
+         color: blue;
+         padding: 7px 140px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         font-family: Comic Sans MS;
+         margin: 34px 450px;
+         transition-duration: 0.4s;
+         cursor: pointer;
+         border-radius: 8px;
+       }
+       
+       
+       
+       .button2 {
+         background-color: blueviolet; 
+         color: black; 
+         border: 2px solid blueviolet;
+       }
