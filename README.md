@@ -9,6 +9,7 @@
     * CSS
     * Batch
     * Python
+    * Json
 
 JSoftware also has its own programming language: **FOOS**
 
